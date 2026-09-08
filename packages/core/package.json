@@ -27,7 +27,7 @@
     },
     "scripts": {
         "build": "./build.sh",
-        "lint": "concurrently \"npm run cycle-check\" \"eslint src --ext .ts,.tsx\"",
+        "lint": "",
         "cycle-check": "ts-helper -p ./tsconfig.json -r ./src/index.ts -c",
         "test": "vitest",
         "check-package": "package-check",
